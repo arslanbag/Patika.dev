@@ -50,7 +50,7 @@ Sonuç	[ 2, 6 ,16, 18, 22 ,27 |]
 [ 2, 6 ,16, 18, 22 ,27 ] Sıralanan 6 elamanlı dizide , 18 değeri 4.indeksli elemandır. Avarage case kapsamındadır.
 
 
-## 4.)[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+## S4.) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 ###### I. "2" değeri dizinin en küçük elemanıdır ve 0. indeksli eleman yani "7" değeri ile yer değiştirilir.
     ve ilk elemandan sonra çizgi çekilir.
