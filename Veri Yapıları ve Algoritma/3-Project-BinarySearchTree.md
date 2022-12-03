@@ -43,24 +43,10 @@ root = 7
   * 5 > 2 olduğu için  5'nin soluna
   * 1 < 2 olduğu için  1'nin sağına
   * 3 > 2 olduğu için  3'nin soluna
-  
-
-		  7         
-		 | |
-		|   |
-	   5     8       
-	  | |     |
-	 |   |     |
-	1     6     9    
-   | |
-  |   |
- 0     3             
-	  | |
-	 |   |
-	2     4       
+     
 
 ## S2.) Yukarıdaki dizinin Big-O gösterimini yazınız.
 
-Worst case   : O ( n )
-Avarage case : O ( log(n) )
-Best  case   : O ( log(n) )	
+* Worst case   : O ( n )
+* Avarage case : O ( log(n) )
+* Best  case   : O ( log(n) )	
