@@ -2,7 +2,7 @@
 ## S1.) [22,27,16,2,18,6] dizisini InsertionSort algoritmasına göre küçükten büyüğe sıralayınız.
 
 ###### I. 0. indexli elemanın önüne çizgi çekelim. ve 1. indeksli eleman ile kıyaslayalım.
-  	###### index[0] > index[1] ise sağına, küçük ise soluna kaydırlım.
+###### index[0] > index[1] ise sağına, küçük ise soluna kaydırlım.
 
    	27 > 22 olduğu için "27" değeri, "22" değerinin sağında konumlanır.
 	[ 22 | 27 ,16 ,2 ,18 ,6 ]
@@ -40,9 +40,9 @@ Sonuç	[ 2, 6 ,16, 18, 22 ,27 |]
 
 ## S2.) Yukarıdaki InsertionSort işleminin Big O Gösterimini yazınız.
 
-Worst case   : O ([n^2])
-Avarage case : O ([n^2])
-Best  case   : O (n)
+* Worst case   : O ([n^2])
+* Avarage case : O ([n^2])
+* Best  case   : O (n)
 
 
 ## S3.) Time Complexity : Dizi sırlandıktan sonra 18 sayısı hangi case kapsamına girer?
