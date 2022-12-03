@@ -2,7 +2,7 @@
 ## S1.) [22,27,16,2,18,6] dizisini InsertionSort algoritmasına göre küçükten büyüğe sıralayınız.
 
 ###### I. 0. indexli elemanın önüne çizgi çekelim. ve 1. indeksli eleman ile kıyaslayalım.
-   index[0] > index[1] ise sağına, küçük ise soluna kaydırlım.
+  	###### index[0] > index[1] ise sağına, küçük ise soluna kaydırlım.
 
    	27 > 22 olduğu için "27" değeri, "22" değerinin sağında konumlanır.
 	[ 22 | 27 ,16 ,2 ,18 ,6 ]
