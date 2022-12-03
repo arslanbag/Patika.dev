@@ -14,16 +14,16 @@
 				   |				            |
 6.				   |_______[ 8 , 11 ,12 ,16 , 21 ,22 ]_____ |
 
-I.   Diziyi 2'ye ayıralım
-II.  Ayırma sonuçları
-III. Tekrar 2'ye ayırılım
-IV.  En fazla 2 elaman olarak ayrılan 
-     dizileri kendi içinde karşılaştıralım küçük 
-     olan rakamı sol tarafa kaydıralım.
-V.   Üst satırda bulunan 2 diziyi birbiri ile kıyaslayalım 
-     (örn : 1. dizinin 0. elemanı < 2.dizinin 0.elemanı)
-VI.  Üst satırda bulunan 2 diziyi birbiri ile 
-     kıyaslayalayarak birleştirelim
+* Diziyi 2'ye ayıralım
+* Ayırma sonuçları
+* Tekrar 2'ye ayırılım
+* En fazla 2 elaman olarak ayrılan 
+  dizileri kendi içinde karşılaştıralım küçük 
+  olan rakamı sol tarafa kaydıralım.
+* Üst satırda bulunan 2 diziyi birbiri ile kıyaslayalım 
+  (örn : 1. dizinin 0. elemanı < 2.dizinin 0.elemanı)
+* Üst satırda bulunan 2 diziyi birbiri ile 
+  kıyaslayalayarak birleştirelim
 
 ## S1.) Yukarıdaki dizinin Big-O gösterimini yazınız.
 
