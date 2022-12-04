@@ -12,7 +12,7 @@ https://github.com/arslanbag/Patika.dev.git
 Projeyi clonladıktan sonra Visual Studio Code programında açınız.
 Linux için:
 ```bash
-cd kodluyoruzilkrepo
+cd Patika.dev
 code .
 ```
 
