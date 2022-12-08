@@ -1,10 +1,10 @@
 # patika.dev Java Script ToDo List ödevi
 
 ### Başlıca Özellikleri
-*Yeni Görev Ekleme
-*Görev Silme
-*Çoklu Görev Silme (çoklu silme butonu çoklu seçimde belirir)
-*Taost bildirimleri 
+* Yeni Görev Ekleme
+* Görev Silme
+* Çoklu Görev Silme (çoklu silme butonu çoklu seçimde belirir)
+* Taost bildirimleri 
 
 
 ### Ekran Görüntüleri
