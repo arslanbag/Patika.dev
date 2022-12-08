@@ -1,23 +1,14 @@
-# kodluyoruzilkrepo
-Bu repo [Kodluyoruz](https://kodluyoruz.org/tr/kodluyoruz/) Eğitimi kapsamında açtığım ilk repo, içerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
+# patika.dev Java Script ToDo List ödevi
 
-![github](https://github.com/arslanbag/Patika.dev/blob/main/Git/kodluyoruzilkrepo/repository.png?raw=true)
+### Başlıca Özellikleri
+*Yeni Görev Ekleme
+*Görev Silme
+*Çoklu Görev Silme (çoklu silme butonu çoklu seçimde belirir)
+*Taost bildirimleri 
 
-# Installation
-Öncelikle projeyi clonelayın.
-```bash
-https://github.com/arslanbag/Patika.dev.git
-```
-# Usage
-Projeyi clonladıktan sonra Visual Studio Code programında açınız.
-Linux için:
-```bash
-cd Patika.dev
-code .
-```
 
-# Contributing
-Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
-
-# kodluyoruzilkrepo
-Kodluyoruz Eğitimi kapsamında açtığım ilk repo
+### Ekran Görüntüleri
+![github](https://raw.githubusercontent.com/arslanbag/Patika.dev/main/JavaScript/TodoList/Screenshots/Screenshot_1.png)
+![github](https://raw.githubusercontent.com/arslanbag/Patika.dev/main/JavaScript/TodoList/Screenshots/Screenshot_2.png)
+![github](https://raw.githubusercontent.com/arslanbag/Patika.dev/main/JavaScript/TodoList/Screenshots/Screenshot_3.png)
+![github](https://raw.githubusercontent.com/arslanbag/Patika.dev/main/JavaScript/TodoList/Screenshots/Screenshot_4.png)
