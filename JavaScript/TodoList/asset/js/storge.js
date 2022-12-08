@@ -18,7 +18,10 @@ if(localStorage["firstRun"] == null)
 }
 
 let getAllStorge = () => {
-	return JSON.parse(localStorage.getItem('list'));
+	if(localStorage.getItem('list') == "[]")
+		return [];
+	else
+		return JSON.parse(localStorage.getItem('list'));
 };
 
 let getByIdIndexStorge = (id) => {
@@ -28,7 +31,10 @@ let getByIdIndexStorge = (id) => {
 
 let identificationNum = () => {
 	let list = getAllStorge();
-	return list[list.length-1].id + 1
+	if(localStorage.getItem('list') == "[]")
+		return 0;
+	else
+		return list[list.length-1].id + 1
 };
 
 let addStorge = (text) => {
