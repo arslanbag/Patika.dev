@@ -1,12 +1,14 @@
 ## Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
-1. film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
-2. film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
-3. film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
-4. film tablosunda bulunan filmlerin uzunluğu 150 dakikadan büyük olanlarına ait kaç farklı replacement_cost değeri vardır?
+1. film tablosunda bulunan filmleri rating değerlerine göre gruplayınız.
+2. film tablosunda bulunan filmleri replacement_cost sütununa göre grupladığımızda film sayısı 50 den fazla olan replacement_cost değerini ve karşılık gelen film sayısını sıralayınız.
+3. customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sayılarını nelerdir? 
+4. city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
 
 ## Cevaplar
-1. SELECT ROUND(AVG(rental_rate),2) FROM film;
-2. SELECT Count(*) FROM film WHERE title LIKE 'C%';
-3. SELECT Max(length) FROM film WHERE rental_rate = 0.99;
-4. SELECT COUNT(DISTINCT replacement_cost) FROM film WHERE length > 150;
+1. SELECT rating FROM  film GROUP BY rating ;
+2. SELECT replacement_cost, COUNT(*) FROM  film GROUP BY replacement_cost HAVING  COUNT(*) > 50 ;
+3. SELECT store_id, COUNT(*) FROM  customer GROUP BY store_id ;
+4. SELECT  country_id , Count(*) FROM  city GROUP BY country_idORDER BY Count(*) DESC LIMIT 1
+
+
