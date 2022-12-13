@@ -5,6 +5,8 @@
 4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
 ``` sql
+--CREATE--
+
 CREATE TABLE employee(
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(100),
@@ -12,6 +14,7 @@ CREATE TABLE employee(
 	birthday DATE,
 );
 
+--INSERT--
 
 --insert intoemployee (name, email, birthday) values ('Kenneth Bullerwell', 'kbullerwell0@nyu.edu', '2022-01-16');
 --insert intoemployee (name, email, birthday) values ('Nathanil Ropkes', 'nropkes1@go.com', '2022-04-26');
