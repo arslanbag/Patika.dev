@@ -8,5 +8,5 @@
 ```sql
 1. SELECT city, country FROM country INNER JOIN city ON city.country.id = country.id;
 2. SELECT payment_id, first_name, last_name FROM customer INNER JOIN payment ON payment.customer.id = customer.id;
-2. SELECT rental, first_name, last_name FROM customer INNER JOIN rental ON rental.customer.id = customer.id;
+3. SELECT rental, first_name, last_name FROM customer INNER JOIN rental ON rental.customer.id = customer.id;
 ```
