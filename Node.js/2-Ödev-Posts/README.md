@@ -22,7 +22,7 @@ const getPosts = () =>
     })
 };
 
-//FIRST GettAllPosts INVOKE
+//FIRST getPosts INVOKE
 console.log("İlk Post Listesi ;");
 getPosts();
 
