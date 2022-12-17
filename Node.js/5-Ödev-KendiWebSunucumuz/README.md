@@ -1,12 +1,12 @@
 
 # Ödev 5
 ## Kendi Web Sunucumuzu yazalım.
-* ## createServer metodunu kullanacağız.
-* ## index, hakkimda ve iletisim sayfaları oluşturalım.
-* ## Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h2 başlıkları yazdıralım.
-* ## Port numarası olarak 5000'i kullanalım.
+* ### createServer metodunu kullanacağız.
+* ### index, hakkimda ve iletisim sayfaları oluşturalım.
+* ### Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h2 başlıkları yazdıralım.
+* ### Port numarası olarak 5000'i kullanalım.
 
-### index.js
+#### index.js
 ```Javascript
 const http = require('http');
 const port = 3000;
