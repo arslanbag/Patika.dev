@@ -9,7 +9,7 @@
 #### index.js
 ```Javascript
 const http = require('http');
-const port = 3000;
+const port = 5000;
 const headType  = {'Content-Type': 'text/html'};
 
 const server = http.createServer((req, res) => 
@@ -17,15 +17,15 @@ const server = http.createServer((req, res) =>
     switch (req.url) {
         case '/':
             res.writeHead(200, headType);
-            res.write('<h2>Anasayfa</h2>')
+            res.write('<h2>Anasayfaya Hoşgeldiniz</h2>')
         break;
         case '/about':
             res.writeHead(200, headType);
-            res.write('<h2>Hakkımızda</h2>')
+            res.write('<h2>Hakkımızda Sayfasına Hoşgeldiniz</h2>')
         break;
         case '/contact':
             res.writeHead(200, headType);
-            res.write('<h2>İletişim</h2>')
+            res.write('<h2>İletişim Sayfasına Hoşgeldiniz</h2>')
         break;
         default:
             res.writeHead(404, headType);
