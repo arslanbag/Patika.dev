@@ -1,9 +1,11 @@
 
 # Ödev 6
 ## Öncelikle şunu belirteyim. Koa.js hakkında konuşmadığımızı biliyorum ve bu ödev ilk aşamada bizi zorlayacak. Buradaki amacım yeni bir teknolojiye başlama cesareti oluşturmak ve hata yapma özgürlüğümüz olduğunu göstermek.
+
 * ### koa paketini indirelim.
 * ### index, hakkimda ve iletisim sayfaları oluşturalım.
-* ### Port numarası olarak 5000'i kullanalım.
+* ### Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h1 başlıkları yazdıralım.
+* ### Port numarası olarak 3000'i kullanalım.
 
 ### index.js
 ```Javascript
@@ -17,17 +19,17 @@ app.use(ctx =>
     ctx.accepts('text/html');
     switch (ctx.url) {
         case '/':
-            ctx.body = '<h2>Anasayfa</h2>'
+            ctx.body = '<h1>Anasayfaya Hoşgeldiniz</h1>'
         break;
         case '/about':
-            ctx.body = '<h2>Hakkımızda</h2>'
+            ctx.body = '<h1>Hakkımızda Sayfasına Hoşgeldiniz</h1>'
         break;
         case '/contact':
-            ctx.body = '<h2>İletişim</h2>'
+            ctx.body = '<h1>İletişim Sayfasına Hoşgeldiniz</h1>'
         break;
         default:
             ctx.status = 404;
-            ctx.body = '<h2>Sayfa Bulunamadı</h2>'
+            ctx.body = '<h1>Sayfa Bulunamadı</h1>'
         break;
     }
 });
